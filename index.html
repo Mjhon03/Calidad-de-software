@@ -13,9 +13,9 @@
     <header>
         <h1 class="logo">Modelos de calidad</h1>
         <div class="nav">
-            <a href="">Introduccion</a>
-            <a href="">Estandares</a>
-            <a href="">Conclusiones</a>
+            <a href="#tema1">Introduccion</a>
+            <a href="#estandares">Estandares</a>
+            <a href="#conclusiones">Conclusiones</a>
         </div>
     </header>
     <section class="home">
@@ -24,17 +24,17 @@
                 <img class="img" src="/img/R.jpg" alt="">
             </div>
             <div class="text1">
-                <h1>Modelos de calidad</h1>
+                <h1 id="tema1" >Modelos de calidad</h1>
                 <br>
                 <p>Los estándares de calidad de software hacen parte de la ingeniería de software, utilización de estándares y metodologías para
                     el diseño, programación, prueba y análisis del software desarrollado, con el objetivo de ofrecer una mayor confiabilidad,
                     mantenibilidad en concordancia con los requisitos exigidos,</p>
                 </div>
             </div>
-            <div class="introduccion">
+            <div  class="introduccion">
                 <p class="t">
                     En un escenario en el que los sistemas de software se desarrollan y construyen por terceros proveedores, el contratante del
-                    servicio, como primer receptor del mismo, en muchos casos debe con#ar en el buen hacer del proveedor seleccionado,
+                    servicio, como primer receptor del mismo, en muchos casos debe confiaar en el buen hacer del proveedor seleccionado,
                     especialmente si nos dispone de los medios apropiados para auditar la entrega y en su caso argumentar defectos en el proceso
                     de desarrollo.
                 </p>
@@ -42,8 +42,8 @@
     </section>
     <br>
     <section class="modelos"> 
-        <div class="calidad">
-            <a class="cuadro" href="iso">
+        <div id="estandares" class="calidad">
+            <a class="cuadro" href="#iso">
                 <div>
                     <br>
                     <h1>Normas ISO/IEC</h1>
@@ -51,7 +51,7 @@
                     <p>Estándar para los procesos de ciclo de vida del software de la organización</p>
                 </div>
                 </a>
-            <a class="cuadro" href="spice">
+            <a class="cuadro" href="#spice">
                 <div>
                     <br>
                     <h1>Spice</h1>
@@ -59,7 +59,7 @@
                         Procesos de Software.</p>
                 </div>
             </a>
-            <a class="cuadro" href="cmmi">
+            <a class="cuadro" href="#cmmi">
                 <div>
                     <br>
                     <h1>CMMI</h1>
@@ -67,7 +67,7 @@
                         efectividad.</p>
                 </div>
             </a>
-            <a class="cuadro" href="psp">
+            <a class="cuadro" href="#psp">
                 <div>
                     <br>
                     <h1>PSP</h1>
@@ -75,14 +75,14 @@
                         realizar una aplicación de software</p>
                 </div>
             </a>
-            <a class="cuadro" href="tsp">
+            <a class="cuadro" href="#tsp">
                 <div>
                     <br>
                     <h1>TSP</h1>
                     <p>Team Software Process es un método de establecimiento y mejora del trabajo en equipo para procesos de software.</p>
                 </div>
             </a>
-            <a class="cuadro" href="moprosoft">
+            <a class="cuadro" href="#moprosoft">
                 <div>
                     <br>
                     <h1>Moprosoft</h1>
@@ -93,7 +93,7 @@
         </div>
     </section>
     <section class="normas">
-        <div class="iso">
+        <div id="iso" class="iso">
             <div>
                 <h2>Normas ISO/IEC</h2>
                 <p>El estándar indica una serie de procesos desde la
@@ -157,7 +157,7 @@
                     <img src="/img/R.png" alt="">
                 </div>
             </div>
-            <div class="sptext">
+            <div id="spice" class="sptext">
                 <h3>SPICE</h3>
             </div>
         <section class="spice"> 
@@ -173,9 +173,9 @@
                 proceso de evaluación.</p></div>
         </section>
         <div >
-            <h4 class="sptext">CMMI</h4>
+            <h4 id="cmmi" class="sptext">CMMI</h4>
         </div>
-        <section class="cmmi">
+        <section  class="cmmi">
             <div class="cm">
                 <div><p>Es un modelo de mejora de los procesos de construcción de software que provee los elementos necesarios para determinar su
                         efectividad. Este modelo puede ser utilizado como guía para mejorar las actividades de un proyecto, área u organización, ya que
@@ -196,7 +196,7 @@
                     </ul>
                 </div>
         </section>
-        <div class="sptext">
+        <div id="psp" class="sptext">
             <h4>PSP</h4>
         </div>
         <section class="psp">
@@ -208,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <div class="sptext">
+        <div id="tsp" class="sptext">
             <h4>TSP</h4>
         </div>
         <section class="tsp">
@@ -221,7 +221,7 @@
                 </div>
             </div>
         </section>
-        <div class="sptext">
+        <div id="moprosoft" class="sptext">
             <h4>Moprosoft</h4>
         </div>
         <section class="moprosoft">
@@ -237,7 +237,7 @@
         </section>
     </section>
         <section class="table">
-            <table class="table-light table-bordered">
+            <table class="table-info table-bordered">
                 <tr>
                     <th scope="col">Estándares y Normas</th>
                     <th scope="col">Organismo que regula</th>
@@ -298,9 +298,11 @@
                 </tr>
             </table>
         </section>
-        <section class="conclusiones">
+        <section id="conclusiones" class="conclusiones">
             <div class="con">
-                <h4>Conclusiones</h4>
+                <div class="context">
+                    <h4>Conclusiones</h4>
+                </div>
                 <p>Gracias a las normas y estándares aplicados a proyectos TI y de calidad para el desarrollo de software hoy en día se nos puede
                     facilitar la realización de los proyectos ya que con las normas podemos seguir ciertos pasos para que los proyectos sean más
                     eficientes y más fáciles de realizarlos paso a paso y los estándares nos especi#can que el desarrollo de un proyecto debe ser
