@@ -88,3 +88,33 @@ td{
 th{
     text-align: center;
 }
+.normas{
+    width: 100%;
+    justify-content: center;
+}
+.iso{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.iso img{
+    width: 400px;
+    height: 300px;
+}
+.carat{
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+}
+.isos{
+    width: 80%;
+    margin: 20px auto;
+    
+}
+.isos div{
+    width: 60%;
+}
+.nose{
+    width: 100%;
+}
