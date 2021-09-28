@@ -68,7 +68,6 @@ header a{
 }
 .calidad a{
     text-decoration: none;
-    color:black;
 }
 .cuadro{
     width: 100%;
@@ -76,5 +75,16 @@ header a{
     justify-content: center;
     display: flex;
     border: 1px solid black;
+    text-align: center;
+    background-color: #023E7D;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+}
+td{
+    text-align:center;
+    padding: 5px;
+
+}
+th{
     text-align: center;
 }
