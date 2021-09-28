@@ -2,6 +2,9 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    background-color: #F4F4F6;
+}
 header{
     width: 100%;
     justify-content: space-around	;
@@ -39,6 +42,7 @@ header a{
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    border-bottom:1px solid black;
 }
 .img{
     width: 500px;
@@ -59,6 +63,10 @@ header a{
     width: 80%;
     height: 500px;
     margin: 10px auto;
+    background: rgb(225,255,225);
+    background: linear-gradient(90deg, rgba(225,255,225,1) 0%, rgba(9,97,82,1) 49%, rgba(0,212,255,1) 100%);
+    align-items: center;
+    display: flex;
 
 }
 .calidad{
@@ -68,6 +76,10 @@ header a{
 }
 .calidad a{
     text-decoration: none;
+}
+.calidad a:hover{
+    color: black;
+    transform: scale(1.1); 
 }
 .cuadro{
     width: 100%;
@@ -93,7 +105,7 @@ th{
     justify-content: center;
 }
 .iso{
-    width: 80%;
+    width: 83%;
     margin: 20px auto;
     display: flex;
     align-items: center;
@@ -107,14 +119,67 @@ th{
     margin: 20px auto;
     align-items: center;
 }
-.isos{
-    width: 80%;
-    margin: 20px auto;
-    
+.clisos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.isos div{
-    width: 60%;
+.isos{
+    width: 40%;
+    margin: 20px auto;
+
 }
 .nose{
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+    display: flex;
+}
+.nose img{
+    width: 400px;
+    height: 300px;
+}
+.spice{
     width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.sptext{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.sp{
+    width: 30%;
+    align-items: center;
+    display: flex;
+}
+.sp2{
+    width: 30%;
+}
+.cmmi{
+    width: 100%;
+}
+.cm{
+    width: 80%;
+    margin: 20px auto;
+}
+.psp{
+    width: 100%;
+}
+.ps{
+    width: 80%;
+    margin: 20px auto;
+}
+.table{
+    width: 80%;
+    margin: 20px auto;
+}
+.con{
+    width: 80%;
+    margin: 20px auto;
 }
